@@ -60,7 +60,7 @@ HAVING COUNT(c.id) > 1;
 
 Query ini menggunakan `GROUP BY` untuk mengelompokkan kelas berdasarkan guru yang mengajar. Fungsi `GROUP_CONCAT` digunakan untuk menggabungkan nama kelas dalam setiap grup menjadi satu string. Klausa `HAVING` digunakan untuk memfilter hasil hanya untuk guru yang mengajar lebih dari satu kelas.
 
-![Hasil Query 2](,/sqlres2.png)
+![Hasil Query 2](./sqlres2.png)
 
 *Pada contoh data saat ini, tidak ada guru yang mengajar lebih dari satu kelas, sehingga query tidak menghasilkan baris data.*
 
