@@ -60,7 +60,7 @@ HAVING COUNT(c.id) > 1;
 
 Query ini menggunakan `GROUP BY` untuk mengelompokkan kelas berdasarkan guru yang mengajar. Fungsi `GROUP_CONCAT` digunakan untuk menggabungkan nama kelas dalam setiap grup menjadi satu string. Klausa `HAVING` digunakan untuk memfilter hasil hanya untuk guru yang mengajar lebih dari satu kelas.
 
-![Hasil Query 2](./sqlres2.png)
+![Hasil Query 2](./sql2res.png)
 
 *Pada contoh data saat ini, tidak ada guru yang mengajar lebih dari satu kelas, sehingga query tidak menghasilkan baris data.*
 
@@ -81,7 +81,7 @@ SELECT * FROM student_class_teacher;
 
 Query ini membuat sebuah view bernama `student_class_teacher` yang pada dasarnya adalah query yang telah didefinisikan sebelumnya (Query 1). View ini memudahkan untuk mengakses data yang sama berulang kali tanpa harus menulis ulang query aslinya.
 
-![Hasil Query 3](./sqlres3.png)
+![Hasil Query 3](./sql3res.png)
 
 #### 3.4. Membuat Stored Procedure `GetStudentClassTeacher`
 
